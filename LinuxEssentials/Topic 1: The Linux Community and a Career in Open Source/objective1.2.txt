@@ -1,0 +1,53 @@
+Software Packages
+	
+	Debian, Ubuntu and Linux Mint -  dpkg, apt-get and apt
+	Red Hat, Fedora and CentOS    -  rpm, yum and dnf
+	- dpkg and rpm operate on individual package files
+
+# sudo dnf search figlet
+# sudo dnf install figlet
+# sude dnf remove figlet
+
+Office Aplications
+
+	Apache OpenOffice (Apache License 2.0), LibreOffice (LGPLv3) document formats are compatible with Microsoft Office formats
+	- the preferred document format is the Open Document Format
+
+	Writer  - Texteditor
+	Calc    - Spreadsheets
+	Impress - Presentations
+	Draw    - Vector drawing
+	Math    - Math formulas
+	Base    - Database
+
+Web Browsers
+	
+	Mozilla Firefox, Google Chrome
+
+Multimedia
+
+	Blender     - 3D
+	GIMP        - 2D, image editing
+	Inkscape    - vector graphics
+	Audacity    - audio editor
+	ImageMAgick - CLI image converter
+
+Server Programs
+
+	PHP, database - server based
+	HTML - client based
+
+Data Sharing
+
+	NFS (Network File System) - between Linux machines only
+	NFS can even be used to share an entire operating system’s directory tree with clients that will use it to boot from (thin clients)
+	Samba implements a protocol for sharing files over the network, compatible with all major operating systems; file sharinng and printers
+	Domain controller is a service provided by Microsoft’s Active Directory
+	Workstations can associate with a domain controller by using Samba or an authentication subsystem called SSSD. As of version 4, Samba can also work as a domain controller on heterogeneous networks.
+	Both ownCloud and Nextcloud offer a paid version with extra features and extended support
+	Both allow for installation on private local server
+
+Network Administration
+
+	DHCP (Dynamic Host Configuration Protocol)
+	DNS (Domain Name System)
