@@ -51,3 +51,56 @@ Network Administration
 
 	DHCP (Dynamic Host Configuration Protocol)
 	DNS (Domain Name System)
+
+Programming languages
+	
+	compiled - to binary code that machine can understand
+	interpreted - typically slower languages, easier to write
+
+
+Guided Exercises
+
+	1. For each of the following commands, identify whether it is associated with the Debian packaging system or the Red Hat packaging system:
+		dpkg - Debian
+		rpm - Red Hat
+		apt-get - Debian
+		yum - Red Hat
+		dnf - Red Hat
+
+	2. Which command could be used to install Blender on Ubuntu? After installation, how can the program be executed?
+		sudo apt-get install blender
+
+	3. Which application from the LibreOffice suite can be used to work with electronic spreadsheets?
+		Calc
+	
+	4. Which open-source web browser is used as the basis for the development of Google Chrome?
+		Chromium
+	
+	5. SVG is an open standard for vector graphics. Which is the most popular application for editing SVG files in Linux systems?
+		Inkscape
+
+	6. For each of the following file formats, write the name of an application able to open and edit the corresponding file:
+		png - GIMP
+		doc - Writer
+		xls - Calc
+		ppt - Impress
+		wav - Audacity
+
+	7. Which software package allows file sharing between Linux and Windows machines over the local network?
+		Samba
+
+Explorational Exercises
+
+	1. You know that configuration files are kept even if the associated package is removed from the system. How could you automatically remove the package named cups and its configuration
+	files from a DEB based system?
+		apt-get purge cups
+
+	2. Suppose you have many TIFF image files and want to convert them to JPEG. Which software package could be used to convert those files directly at the command line?
+		IMageMagick
+
+	3. Which software package do you need to install in order to be able to open Microsoft Word documents sent to you by a Windows user?
+		LibreOffice (Writer)
+
+	4. Every year, linuxquestions.org promotes a survey about the most popular Linux applications. Visit  https://www.linuxquestions.org/questions/2018-linuxquestions-org-members-choice-awards-128/ 
+	and find out which desktop applications are most popular among experienced Linux users.
+		Browser: Firefox. Email client: Thunderbird. Media player: VLC. Raster graphics editor: GIMP
