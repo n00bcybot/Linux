@@ -1,0 +1,69 @@
+Linux User Interfaces
+
+	Desktop Environments
+		
+		Gnome - keep it simple
+			GTK toolkit (written in the C language)
+			
+		KDE - larger selection of applications and giving the user the opportunity to change every configuration setting
+			Qt library (written in C++)
+
+Getting to the Command Line
+
+	Gnome Terminal
+	Konsole (KDE)
+	other options
+
+Presentations and Projects
+
+	LibreOffice Impress (Microsoft Office substitute)
+	ODP (part of Open Document Format)
+
+	Beamer -  LaTeX class that can create slide presentations from LaTeX code
+	LaTeX - typesetting system largely used for writing scientific documents, capacity to handle complex math symbols
+	Reveal.js, an awesome NPM package (NPM is the default NodeJS package manager) which allows you to create beautiful presentations by using the web
+	GanttProject
+	ProjectLibre
+
+Industry Uses of Linux
+
+	stability, flexibility and performance
+	68% of the website servers on the Internet are powered by Unix and the biggest portion of those are known to be Linux
+	significant portion of Linux systems nowadays run in the cloud (IaaS, PaaS, SaaS)
+	
+	IaaS - share the resources of a large server by offering access to virtual machines via hypervisor
+	Linux has three well know open source hypervisors: Xen, KVM and VirtualBox
+		Xen - the oldest
+		KVM - the most popular, sponsored by Red Hat
+		VirtualBox - Oracle
+
+	PaaS - Heroku, program code can just be run without taking care of the underlying containers and virtual machines
+
+	SaaS - Dropbox and Salesforce
+
+Privacy Issues when using the Internet
+
+	Cookie Tracking - enables tracking of your activity on the web via small files stored on your computer
+	Do Not Track (DNT) - not guaranteed add opt-out
+	“Private” Windows - in "private" mode the browser cretes a new session and  deletes all data generated in that session upon closing
+
+Choosing the Right Password
+
+	Do not use easy to guess numbers, like birthdays or password123
+	KeePass - stores passwords in encrypted file on the local system
+	BitWarden - stores passwords in the cloud
+
+Encryption
+
+	Transport Layer Security (TLS) - successor of SSL
+
+File and E-mail Encryption With GnuPG
+
+	GNU Privacy Guard - can be used to sign, encrypt, and decrypt texts, e-mails, files, directories, and even whole disk partitions, works with public and private key
+	
+Disk Encryption
+
+	two methods available: stacked and block device encryption
+	stacked - files and directories are encrypted before being stored on the filesystem and decrypted after reading them
+	block - happens below the filesystem layer, making sure everything that is written to a block device is encrypted
+	dm-crypt - the de-facto standard for block encryption for Linux systems
