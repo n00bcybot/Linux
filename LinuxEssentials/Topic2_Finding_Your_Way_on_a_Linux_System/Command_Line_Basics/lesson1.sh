@@ -1,3 +1,6 @@
+# Lesson 1
+# --------------------------------------------------------------------------------------------
+
 # All these commands do the same thing
 
 ls -al
@@ -20,7 +23,8 @@ man is /usr/bin/man
 TWOWORDS="two words"
 touch $TWOWORDS
 
-# Using the same variable inside double quotes creates a single file called "two words".The 3 special characters are interpreted as such ($, \ and `). Spaces in names are not best practice.
+# Using the same variable inside double quotes creates a single file called "two words".The 3 special characters are interpreted as such ($, \ and `).
+# Spaces in names are not best practice.
 touch "$TWOWORDS"
 
 # Another example - the value of the variable is still read inside the double quotes
@@ -90,7 +94,7 @@ PATH=$PATH:new_directory
 # Side quest - share Joplin notes on dual boot system (Joplin synchronization via FileSystem)
 # ------------------------------------------------------------------------------------------
 
-# This requres creating a new partition on a hard disk acessible from both systems (created in this case via Windows Disk Manager - Shrink Volume) as well as 
+# This requires creating a new partition on a hard disk accessible from both systems (created in this case via Windows Disk Manager - Shrink Volume) as well as
 # permanently mounting the partition via editing /etc/fstub
 
 # Get the UUID of the partition
@@ -112,3 +116,5 @@ df -h
 lsblk
 
 # -------------------------------------------------------------------------------------------
+
+
