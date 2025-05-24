@@ -13,4 +13,7 @@ echo "Hello World 2!" >> text
 /dev/null
 
 
+# Side quest - permanently add command alias
+echo "alias gs='git status'" >> ~/.bashrc
+
 
